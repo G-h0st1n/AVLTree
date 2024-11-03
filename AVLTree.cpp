@@ -10,6 +10,7 @@ Node::Node(int v) : value(v), height(1), left(nullptr), right(nullptr) {}
 // Implementación de AVLTree
 AVLTree::AVLTree() : root(nullptr) {}
 
+//Usando apoyo de stack overflow
 int AVLTree::height(Node* node) {
     return node ? node->height : 0;
 }
@@ -24,6 +25,8 @@ void AVLTree::updateHeight(Node* node) {
     }
 }
 
+
+//Las rotaciones teoricamnte deberian de ser iguales nomas cambiando localizacion de nodos
 Node* AVLTree::rotateLeft(Node* node) {
     Node* newRoot = node->right;
     node->right = newRoot->left;
@@ -59,6 +62,8 @@ Node* AVLTree::balance(Node* node) {
     return node;
 }
 
+
+//Segun el nodo, agarrarlo e insertarlo (?)
 Node* AVLTree::insert(Node* node, int value) {
     if (!node) return new Node(value);
     if (value < node->value) {

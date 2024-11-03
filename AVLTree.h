@@ -9,6 +9,8 @@
 #include <iostream>
 using namespace std;
 
+
+//USando como base codigo de clase de busqueda binaria...(?)
 class Node {
 public:
     int value;
