@@ -1,0 +1,7 @@
+# ninja log v6
+2	564	7523122541614751	CMakeFiles/AVL_Tree.dir/main.cpp.obj	69152583aef7a32f
+59	765	7523122542180680	CMakeFiles/AVL_Tree.dir/AVLTree.cpp.obj	ba2db2fe894efe5a
+765	1322	7523122549241908	AVL_Tree.exe	5b38105f84e6a3e0
+4	578	7523125168262117	CMakeFiles/AVL_Tree.dir/main.cpp.obj	69152583aef7a32f
+46	762	7523125168682133	CMakeFiles/AVL_Tree.dir/AVLTree.cpp.obj	ba2db2fe894efe5a
+762	1271	7523125175845171	AVL_Tree.exe	5b38105f84e6a3e0
